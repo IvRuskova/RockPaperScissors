@@ -35,11 +35,7 @@ else if (computerRandomNumber == 3)
 {
     computerMove = Scissors;
 }
-//else
-//{
-//    Console.WriteLine("Invalid Input. Try Again...");
-//    return;
-//}
+
 Console.WriteLine($"The computer chose {computerMove}.");
 if ((playerMove == Rock && computerMove == Scissors)||(playerMove == Paper && computerMove == Rock) || (playerMove == Scissors && computerMove == Paper)) 
 {
